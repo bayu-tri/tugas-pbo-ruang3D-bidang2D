@@ -5,7 +5,7 @@
  */
 package tugaspbo;
 
-import ruang3D.Kerucut;
+import ruang3D.Bola;
 
 /**
  *
@@ -18,13 +18,11 @@ public class TugasPBO {
      */
     public static void main(String[] args) {
         
-        Kerucut kerucut = new Kerucut();
-        
-        kerucut.setJariJari(7);
-        kerucut.setTinggi(10);
-        
-        System.out.println(kerucut.hitungVolume());
-        
+        //Just a testing
+        Bola bola = new Bola();
+        bola.setJariJari(7);
+        System.out.println(bola.hitungLuasPermukaan());
+        System.out.println(Math.pow(bola.jariJari, 3));
     }
     
 }

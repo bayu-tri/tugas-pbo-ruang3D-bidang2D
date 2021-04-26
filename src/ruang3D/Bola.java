@@ -12,5 +12,12 @@ import bidang2D.Lingkaran;
  * @author Bayu Tri Nugroho
  */
 public class Bola extends Lingkaran{
-    
+    public double hitungLuasPermukaan()
+    {
+        return 4*phi*(Math.pow(jariJari, 2));
+    }
+    public double hitungVolume()
+    {
+        return (4*phi*Math.pow(jariJari, 3))/3;
+    }
 }
